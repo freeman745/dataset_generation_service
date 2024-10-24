@@ -1,0 +1,4 @@
+cloud_host: mongodb+srv://roms:roms2020@mongotest.w4hxhpi.mongodb.net
+port: 27017
+db_name: roms_oid_logs
+timeout_sec: 4

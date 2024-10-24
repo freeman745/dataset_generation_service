@@ -1,0 +1,19 @@
+# create this under /etc/systemd/system/mongodb_consumer.service
+# then run:
+# sudo systemctl daemon-reload && sudo systemctl restart mongodb_consumer
+
+[Unit]
+Description=Mongo Consumer
+
+[Service]
+Type=simple
+User=roms
+WorkingDirectory=/home/roms/Project/RPS/RomsPickingSystem/third_party/mongodb/mongodb
+ExecStart=/home/roms/venvs/mongodb/bin/python mongodb_consumer.py
+Restart=on-failure
+RestartSec=10
+KillMode=process
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

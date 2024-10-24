@@ -1,0 +1,15 @@
+pymongo==4.3.3
+python-git==2018.2.1
+gitdb==4.0.10
+gitpython==3.1.31
+numpy==1.20.3
+opencv-contrib-python==4.7.0.68
+matplotlib==3.7.0
+# open3d==0.17.0
+# pyntcloud==0.3.1
+pythreejs==2.4.2
+pyaml==21.10.1
+blosc==1.11.1
+ipywidgets==8.0.6
+plotly==5.14.1
+redis==5.0.1

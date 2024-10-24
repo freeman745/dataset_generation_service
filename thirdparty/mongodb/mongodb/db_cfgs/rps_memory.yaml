@@ -1,0 +1,6 @@
+host: localhost
+port: 27017
+username: root
+password: example
+db_name: rps_memory
+timeout_sec: 3

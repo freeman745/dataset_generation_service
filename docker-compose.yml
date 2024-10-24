@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  dataset_generation:
+    image: &image romsrps/dataset_generation:1.5.0
+
+  image_build:
+    image: *image
+    build:
+      context: .
+      dockerfile: ./Dockerfile

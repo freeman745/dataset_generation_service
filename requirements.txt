@@ -1,0 +1,9 @@
+numpy
+opencv_python
+scikit-image
+labelme
+pycocotools
+slack_sdk
+scipy
+blosc
+pymongo

@@ -1,0 +1,7 @@
+**/*.pyc
+**/*.ipynb
+**/env
+**/build
+**/*.egg-info
+**/*.ipynb
+mongodb_consumer.log

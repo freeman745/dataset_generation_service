@@ -1,0 +1,14 @@
+host: localhost
+cloud_host: mongodb+srv://dimitris:51hKloUpcqeOHmXO@cluster0.ielca3x.mongodb.net
+port: 27017
+username: root
+password: example
+db_name: rps_logs
+timeout_sec: 5
+data_dir_path: "/data/db_data/"
+indexes:
+  - index: order_id
+    unique: True
+  - index: metadata.timestamp
+    unique: False
+    name: timestamp
